@@ -1,12 +1,7 @@
 //Modules
+const cars = require("./4-firstModule");
+const startCar = require("./5-secondMdule");
 
-const audi = "Audi";
-const renault = "Renault";
-
-const startCard = (car) => {
-  console.log(`${car} has started!`);
-};
-
-startCard("Vw");
-startCard(audi);
-startCard(renault);
+startCar("Vw");
+startCar(cars.audi);
+startCar(cars.renault);
