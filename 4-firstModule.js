@@ -4,6 +4,5 @@ const secret = "mega secret";
 const audi = "Audi";
 const renault = "Renault";
 
-console.log(module);
-
 module.exports = { audi, renault };
+// console.log(module);
