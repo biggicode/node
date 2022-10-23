@@ -1,10 +1,22 @@
-//Modules
-const cars = require("./4-firstModule");
-const startCar = require("./5-secondMdule");
-const portocale = require("./6-alternative");
-require("./7-mindGrenade");
+const os = require("os");
 
-// console.log(portocale);
-// startCar("Vw");
-// startCar(cars.audi);
-// startCar(cars.renault);
+//info about current user
+
+const user = os.userInfo();
+
+console.log(user);
+
+//method to return the system uptime in seconds
+
+console.log(`System is up for: ${os.uptime()} seconds`);
+
+//display os
+
+const currentOS = {
+  name: os.type(),
+  release: os.release(),
+  totalMemory: os.totalmem(),
+  freeMemory: os.freemem(),
+};
+
+console.log(currentOS);
