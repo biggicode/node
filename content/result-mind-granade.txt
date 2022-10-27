@@ -1,0 +1,4 @@
+result with await: Hy I'm the first oneHy I'm the second
+ oneresult with await: Hy I'm the first oneHy I'm the second
+ oneresult with await: Hy I'm the first oneHy I'm the second
+ one
